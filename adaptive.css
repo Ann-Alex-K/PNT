@@ -79,7 +79,7 @@
         z-index: 1;
         margin-left: 0;
         text-align: center;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         display: flex;
     }
 
@@ -117,7 +117,11 @@
     .contact-img>img {
         display: none;
     }
-
+    
+    .contact-card>.header-tg-wt {
+        justify-content: center;
+    }
+    
 
 }
 
@@ -259,8 +263,8 @@
 
     .info-img {
         background-image: url(https://github.com/Ann-Alex-K/PNT/blob/main/assets/fullloo2.jpg?raw=true);
-        max-height: 27em;
-        background-position-y: -50px;
+        max-height: 30em;
+        background-position-y: 0px;
         margin: 0 -2em 0 -2em;
     }
 
@@ -403,7 +407,9 @@
 
     .contact-cards {
         margin: 0;
+        flex-wrap: wrap;
     }
+
 
     .contact-card {
         padding: 20px 16px 0 16px;
@@ -417,6 +423,25 @@
         min-height: auto;
         margin: -2em -4em 0 -5em;
         max-width: 130%;
+    }
+
+    .main-img>img {
+        display: none;
+    }
+
+    .main-img {
+        position: static;
+        display: block;
+        background-image: url(https://github.com/Ann-Alex-K/PNT/blob/main/assets/main.png?raw=true);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: -7em -2em 0 1em;
+        /* min-height: 580px; */
+        max-width: 100%;
+        background-position-y: 200px;
+        background-size: contain;
+        min-height: 400px;
+        right: 2em;
     }
 
 }
