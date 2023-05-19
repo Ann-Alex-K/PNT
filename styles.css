@@ -1,15 +1,3 @@
-/* @font-face {
-    font-family: 'Larsseit';
-    src: url('Larsseit.eot');
-    src: local('Larsseit'),
-        url('font/Larsseit.eot?#iefix') format('embedded-opentype'),
-        url('font/Larsseit.woff2') format('woff2'),
-        url('font/Larsseit.woff') format('woff'),
-        url('font/Larsseit.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
-
 
 
 * {
@@ -252,8 +240,19 @@ button>a {
     right: 0;
     overflow: hidden;
     max-width: 100%;
+    animation: slideInRight 1s ease forwards;
 
 }
+
+    
+    @keyframes slideInRight {
+    from {
+    transform: translateX(100%);
+    }
+    to {
+    transform: translateX(0);
+    }
+    }
 
 .back-img {
     top: 0;
