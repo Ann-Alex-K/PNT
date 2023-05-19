@@ -441,7 +441,7 @@
         background-position-y: 200px;
         background-size: contain;
         min-height: 400px;
-        right: 2em;
+        /* right: 2em; */
     }
 
 }
