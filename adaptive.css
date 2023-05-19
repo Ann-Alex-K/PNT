@@ -31,6 +31,7 @@
 
     .info-text {
         margin: 0 25em 0 1em;
+        padding: 120px 20px 95px 60px;
     }
 
 
@@ -105,7 +106,7 @@
     .contact-img {
         position: static;
         display: block;
-        background-image: url(https://github.com/Ann-Alex-K/PNT/blob/main/assets/fullloo2.jpg?raw=true);
+        background-image: url(https://github.com/Ann-Alex-K/PNT/blob/main/assets/3_5Image13.jpeg?raw=true);
         background-size: cover;
         background-repeat: no-repeat;
         margin: -7em -2em 0 -2em;
@@ -164,9 +165,10 @@
     .info-img {
         position: static;
         display: block;
-        background-image: url(https://raw.githubusercontent.com/Ann-Alex-K/Thrivetalk-Landing-page/main/assets/christopher-campbell-40367.png);
+        background-image: url(https://github.com/Ann-Alex-K/PNT/blob/main/assets/fullloo2.jpg?raw=true);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position-y: -70px;
         margin: -1em -2em 0 -2em;
         max-width: 120%;
 
@@ -256,9 +258,13 @@
     }
 
     .info-img {
+        background-image: url(https://github.com/Ann-Alex-K/PNT/blob/main/assets/fullloo2.jpg?raw=true);
         max-height: 27em;
+        background-position-y: -50px;
         margin: 0 -2em 0 -2em;
     }
+
+
 
     .about-wrapper {
         margin-top: 50px;
@@ -273,7 +279,7 @@
         margin: 6px 0 0 0;
     }
 
-    .about-cards p {
+    /* .about-cards p {
         text-align: center;
         margin: auto;
     }
@@ -283,9 +289,9 @@
         flex-direction: column;
         width: 100%;
         overflow: hidden;
-    }
+    } */
 
-    .about-cards>* {
+    /* .about-cards>* {
         width: 100%;
         height: 300px;
         padding-top: 40px;
@@ -296,8 +302,8 @@
         width: 117%;
         padding-left: 0;
         margin-left: -0.4em;
-    }
-
+    } */
+/* 
     .service-cards p::before,
     .about-cards p::before {
         width: 0;
@@ -331,9 +337,9 @@
     .about-cards hr {
         margin: 23px 1em 23px 4em;
         max-width: 100%;
-    }
+    } */
 
-    .service-cards p {
+    /* .service-cards p {
         text-align: center;
         margin: auto
     }
@@ -352,7 +358,7 @@
 
     .service-cards hr {
         margin: 23px 0 30px 40px;
-    }
+    } */
 
     .about-service>* {
         padding: 30px 45px 30px 45px;
