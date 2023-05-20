@@ -528,6 +528,10 @@ footer {
 
 }
 
+.prod-box-1 {
+   width: 300px;
+}
+
 .product-header {
     display: flex;
     justify-content: space-between;
@@ -593,6 +597,12 @@ hr {
     height: 200px;
 }
 
+.prod-img-1 {
+    /* background-color: #f5f5f598; */
+    /* width: 400px; */
+    height: 200px;
+}
+
 .prod-img-2 {
     background-color: #ffffff;
     width: 400px;
@@ -600,6 +610,14 @@ hr {
 }
 
 .prod-img-2>img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.prod-img-1>img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
