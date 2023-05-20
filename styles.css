@@ -1,9 +1,7 @@
-
-
 * {
     padding: 0px;
     margin: 0px;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
@@ -159,6 +157,20 @@ button>a {
     justify-content: space-evenly;
     row-gap: 5em;
     padding: 0 0 0 100px;
+    animation: slideInLeft 1s forwards;
+    left: -100px;
+}
+
+
+@keyframes slideInLeft {
+
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .intro-text>h3 {
@@ -244,23 +256,22 @@ button>a {
 
 }
 
-    
-    @keyframes slideInRight {
+
+@keyframes slideInRight {
     from {
-    transform: translateX(100%);
+        transform: translateX(100%);
     }
+
     to {
-    transform: translateX(0);
+        transform: translateX(0);
     }
-    }
+}
 
 .back-img {
     top: 0;
     right: 0;
     position: absolute;
 }
-
-
 
 
 /* info */
