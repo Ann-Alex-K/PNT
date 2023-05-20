@@ -26,6 +26,7 @@ a {
 .header-tg-wt {
     display: flex;
     align-items: center;
+    justify-content: space-evenly
 }
 
 .header-contact {
@@ -34,18 +35,27 @@ a {
     align-items: center;
 }
 
+.url {
+    max-width: 55px;
+    row-gap: 1em;
+}
+
+.urlForTg {
+    max-width: 47px;
+}
+
 .tg {
-    max-width: 80%;
+    max-width: 100%;
     cursor: pointer;
 }
 
 .wtsup {
-    max-width: 70%;
+    max-width: 100%;
     cursor: pointer;
 }
 
 .mail {
-    max-width: 80%;
+    max-width: 100%;
     cursor: pointer;
 }
 
@@ -145,7 +155,7 @@ button>a {
 
 .tel-wrapper {
     text-align: center;
-    margin: -5px 50px 0 0
+    margin: -5px 0 0 0
 }
 
 .tel {
