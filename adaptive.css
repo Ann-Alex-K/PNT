@@ -1,3 +1,29 @@
+@media only screen and (max-width: 1500px) {
+    .info-text {
+        padding: 120px 20px 95px 80px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5em;
+        max-width: 800px;
+    }
+    
+    .info-text>h2 {
+        font-size: 36px;
+        line-height: 27px;
+        letter-spacing: -0.006em;
+        color: #FFFFFF;
+    }
+    
+    .info-text>p {
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+        max-width: 600px;
+        font-weight: 800;
+    }
+}
+
+
 @media only screen and (max-width: 1200px) {
 
     .header-content {
@@ -77,7 +103,7 @@
         flex: 1 1 380px;
     }
 
-    .contact-img {
+    /* .contact-img {
         position: static;
         display: block;
         background-image: url(https://github.com/Ann-Alex-K/PNT/blob/main/assets/3_5Image13.jpeg?raw=true);
@@ -86,7 +112,7 @@
         margin: -7em -2em 0 -2em;
         min-height: 580px;
         max-width: 110%;
-    }
+    } */
 
     .contact-img>img {
         display: none;
@@ -305,7 +331,7 @@
     }
 
     .tel {
-        font-size: 13px;
+        font-size: 10px;
     }
 
 }
